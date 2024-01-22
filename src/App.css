@@ -1,0 +1,167 @@
+* {
+  margin: auto;
+}
+
+body {
+  height: 100vh;
+}
+
+.header {
+  height: 10vh;
+  background-color: lightblue;
+  display: flex;
+}
+
+.card {
+  display: flex;
+  margin: 0px 10px 20px 10px;
+  padding: 6px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 9px -4px #000000;
+  box-shadow: 0px 0px 9px -4px #000000;
+  align-items: stretch;
+  background-color: lightgray;
+}
+
+.imageContainer {
+  flex: 2;
+  padding-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+.imageContainer img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+
+
+.textContainer {
+  flex: 4;
+  display: flex;
+  flex-direction: column;
+}
+
+.titleContainer{
+  font-size: 14px;
+  font-weight: bold;
+  overflow: hidden;
+  width: 100%;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.spacer{
+  height: 4px;
+}
+
+.infoNewsContainer{
+  flex-direction: column;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 12px;
+}
+
+.infoNewsContainer p{
+  margin: 0;
+  padding-top: 4px;
+}
+
+.headerDetail{
+  height: 30vh;
+  background-color: red;
+}
+
+.headerDetail img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.dark {
+  background-color: #072230;
+  color: white;
+}
+.light {
+  background-color: rgb(232, 232, 232);
+  color: #072230;
+}
+.articleData{
+  padding: 0px 10px 0px 10px;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.publicationInfo{
+  display: flex;
+  margin-bottom: 10px;
+}
+.publicationInfo p{
+  margin: 0;
+  font-style: italic;
+  font-weight: 500;
+  margin-right: 25px;
+}
+.divider{
+  width: 100%;
+  /* margin-left: 4%;
+  margin-right: 4%; */
+  height: 1px;
+  background-color: rgb(170, 170, 170);
+}
+.articleDesc{
+  margin-top: 10px;
+}
+.bottomContent{
+  margin: 0;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.topContent{
+  margin: 0;
+}
+
+
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: lightseagreen;
+  cursor: pointer;
+  color: white;
+  transition: border-color 0.25s;
+}
+input{
+  width: 90vw;
+  padding: 10px;
+  border-radius: 10px;
+  border-color: lightgray;
+}
+
+.searchbar-container{
+  /* background-color: #FFFFFF44; */
+backdrop-filter: blur(8px);
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 7vh;
+}
+a{
+  text-decoration: none;
+}
